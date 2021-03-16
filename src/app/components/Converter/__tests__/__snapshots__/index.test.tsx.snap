@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Converter  /> should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 10em;
+}
+
+.c1 {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  width: 66%;
+}
+
+.c2 {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  width: 33%;
+}
+
+<div
+  class="c0"
+>
+  <input
+    class="c1"
+    name="from"
+    type="text"
+    width="66%"
+  />
+  <input
+    class="c2"
+    name="result"
+    type="text"
+    width="33%"
+  />
+</div>
+`;

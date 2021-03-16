@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header  /> should match snapshot 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100vw;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  background-color: gray;
+  vertical-align: center;
+}
+
+.c1 {
+  width: 10%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.c2 {
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.c2::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  content: '';
+  background: #ec644b;
+  height: 1px;
+  width: 0;
+  color: #ec644b;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.c2:hover::before {
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <nav
+    class="c1"
+  >
+    <a
+      class="c2"
+      href="/"
+    >
+      Калькулятор
+    </a>
+    <a
+      class="c2"
+      href="/calc"
+    >
+      Курс
+    </a>
+  </nav>
+</div>
+`;
